@@ -8,7 +8,6 @@
 # Ignore environment-specific files
 /.env
 /.env.*
-!/.env.example
 
 # Ignore macOS directory attributes
 .DS_Store

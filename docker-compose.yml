@@ -14,6 +14,9 @@ services:
         environment:
             - HISTFILE=/usr/src/app/log/.bash_history
             - ENVIRONMENT=local
+            - PGHOST=db
+            - PGUSER=postgres
+            - PGPASSWORD=123123
         depends_on:
             - db
     db:
